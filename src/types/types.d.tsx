@@ -2,6 +2,7 @@ export { };
 
 export type FrontPageSliderCard = {
     order: number,
+    type: string,
     title: string,
-    image: string,
+    url: string,
 }
